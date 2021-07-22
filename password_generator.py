@@ -12,3 +12,13 @@ Numb = string.digits
 
 #define the special characters
 Char = string.punctuation
+
+pwdlen = int(input("Enter the password length\n"))
+s=[]
+s.extend(list(StrUpperCase))
+s.extend(list(StrLowerCase))
+s.extend(list(Numb))
+s.extend(list(Char))
+
+print("Your random password is: ")
+print("".join(random.sample(s,pwdlen)))
