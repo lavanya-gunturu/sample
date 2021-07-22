@@ -24,4 +24,6 @@ if __name__ == "__main__":
     # print("".join(s[0:plen]))
 dnjf;kwe
 dm
+aldk
+skndsi
 
