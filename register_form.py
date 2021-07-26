@@ -10,3 +10,11 @@ db_connection = mysql.connector.connect(
     user="root",
     password=""
 )
+db_cursor= db_connection.ursor(buffered=True)
+#define login class
+class LoginApp(tk.Tk):
+    def__init__(self):
+     super().__init__()
+     self.title("Login")
+     self.geometry("600*450+351+174")
+     self.configure(bg="#000000")
