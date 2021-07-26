@@ -39,4 +39,7 @@ class LoginApp(tk.Tk):
      self.btn_register.place(relx=0.695, rely=0.489, height=24, width=175)
      self.btn_exit.place(relx=0.75, rely=0.911, height=24, width=61)
 
-
+#recall the main loop
+if __name__ == "__main__":
+    app = LoginApp()
+    app.mainloop()
